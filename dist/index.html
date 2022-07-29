@@ -9,7 +9,37 @@
     <title>Weather App</title>
 </head>
 <body>
-    <input type="search" id="search">
-    <button id="submitSearch">Search!</button>
+    <div class="container" id="container">
+        <div class="header" id="header">
+            <h1>the.weather</h1>
+        </div>
+        <div class="data" id="data">
+
+        </div>
+        <div class="sidebar" id="sidebar">
+            <div class="searchSection" id="searchSection">
+                <input type="search" class="search" id="search" placeholder="Search for a city">
+                <button class="submitSearch" id="submitSearch"><img src="../src/images/search.png" height ="40" width="auto" /></button>
+            </div>
+            <div class="defaultCity" id="defaultCity">
+                <p class="cityOption" id="cityOption">Sydney</p>
+                <p class="cityOption" id="cityOption">Phuket</p>
+                <p class="cityOption" id="cityOption">Los Angeles</p>
+                <p class="cityOption" id="cityOption">Manchester</p>
+                <p class="cityOption" id="cityOption">New York</p>
+            </div>
+            <div class="weatherDetails" id="weatherDetails">
+                <p class="weatherDetailsHeading">Weather Details</p>
+                <div class="detailHeadings" id="detailHeadings">
+                    <p class="cloudy">Cloudy</p>
+                    <p class="humidity">Humidity</p>
+                    <p class="wind">Wind Speed</p>
+                </div>
+                <div class="detailData" id="detailData">
+
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
